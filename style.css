@@ -5,6 +5,7 @@
     --link: purple;
     --secondary: honeydew;
     --rev: rgb(153, 0, 115);
+    --size: 18px;
 }
 
 body{
@@ -14,11 +15,10 @@ body{
 }
 footer{
     position:fixed;
-    left: 0;
+    right: 0;
     bottom: 0;
     background-color: var(--secondary);
 }
-
 .title{
     text-align: center;
     font-size: 60px;
@@ -57,5 +57,13 @@ a:visited{
     font-size: 40px;
 }
 p, li{
-    font-size: 18px;
+    font-size: var(--size);
+}
+button{
+    background-color: var(--secondary);
+    color: var(--text);
+    font-size: var(--size);
+}
+.option{
+    font-size: 40px;
 }
